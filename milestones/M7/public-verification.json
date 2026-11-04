@@ -1,0 +1,55 @@
+{
+  "checked_at": "2026-11-04T07:13:42.922072+00:00",
+  "url": "http://60.204.228.191:7860",
+  "models_verified": 14,
+  "cases": [
+    {
+      "model": "M5_C3_A",
+      "method": "ss",
+      "delta": 3,
+      "channel": "opus8",
+      "groups": 9,
+      "first_score": 0.7884536308546861,
+      "received_sha256": "f4ce5022c4780ad92196b05671df848afc6ec3d7f7cc382526a271cd90438c3a",
+      "replay_identical": true,
+      "roundtrip_and_replay_s": 2.061
+    },
+    {
+      "model": "M5_C3_B",
+      "method": "ss",
+      "delta": 3,
+      "channel": "opus8",
+      "groups": 9,
+      "first_score": 0.6745873369276524,
+      "received_sha256": "8ccc364e87ac02f32e8fb06974942131664b1c889404758aa2b4d031eba7654f",
+      "replay_identical": true,
+      "roundtrip_and_replay_s": 2.496
+    },
+    {
+      "model": "M6_E06_O_LPC_A",
+      "method": "lpc",
+      "delta": 6,
+      "channel": "opus8",
+      "groups": 9,
+      "first_score": 0.9517550138135751,
+      "received_sha256": "d96cd71f6c43d041b6c034f6ed133b52a4e5c6d6b7021181842688c51a5a4832",
+      "replay_identical": true,
+      "roundtrip_and_replay_s": 3.536
+    },
+    {
+      "model": "correlation",
+      "method": "ss",
+      "delta": 0,
+      "channel": "noise20",
+      "groups": 9,
+      "first_score": 0.05153753900802842,
+      "received_sha256": "ee5c46f60cf627bf5fbfb31f2e21f92d5d5891386f66b8df0961b20ca54b8e3e",
+      "replay_identical": true,
+      "roundtrip_and_replay_s": 2.139
+    }
+  ],
+  "rejected_inputs": {
+    "silence.wav": "音频为静音或幅度过低",
+    "too_short.wav": "音频时长必须在 0.1～30 秒之间"
+  }
+}
