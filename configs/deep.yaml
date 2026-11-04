@@ -1,0 +1,55 @@
+experiment_id: E_M4_deep_smoke_v1
+experiment_kind: deep_detection_v1
+data:
+  manifest: data/manifests/smoke.jsonl
+  scope: development_smoke_only
+  parent_splits:
+    3436-172162-0000: dev_train
+    5703-47212-0000: dev_validation
+    198-209-0000: dev_evaluation
+audio:
+  embed_sample_rate: 16000
+  joint_peak_limit: 0.99
+spectral:
+  frame_ms: 20
+  hop_ms: 10
+  low_hz: 500
+  high_hz_exclusive: 3650
+  expected_bins: 63
+  cepstral_cutoff_ms: 0.5
+key:
+  path: data/keys/watermark_20261017.json
+  bit_generator: PCG64
+conditions:
+  - id: C1
+    delta_db: 1
+    channel: downsample_8k
+  - id: C3
+    delta_db: 3
+    channel: opus8k_8kbps
+training:
+  architectures: [A, B]
+  seed: 2026
+  device: cpu
+  cpu_threads: 1
+  epochs: 25
+  batch_size: 1024
+  normalization: none
+  optimizer:
+    lr: 0.001
+    alpha: 0.99
+    eps: 0.00000001
+    weight_decay: 0
+    momentum: 0
+    centered: false
+    foreach: false
+evaluation:
+  aggregate_frames: [1, 2, 5, 10, 15, 20, 25, 30]
+  vad:
+    mode: webrtc
+    aggressiveness: 2
+  primary_checkpoint: final_epoch
+  calibration_split: dev_validation
+  primary_split: dev_evaluation
+output:
+  root: outputs

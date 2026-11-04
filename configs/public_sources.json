@@ -1,0 +1,36 @@
+{
+  "dataset_id": "librosa_librispeech_examples_hq_v1",
+  "scope": "development smoke only; three source utterances; no train/validation/test claims",
+  "description_url": "https://librosa.org/doc/main/recordings.html",
+  "registry_url": "https://raw.githubusercontent.com/librosa/librosa/main/librosa/util/example_data/registry.txt",
+  "sources": [
+    {
+      "utterance_id": "5703-47212-0000",
+      "speaker_id": "5703",
+      "example_key": "libri1",
+      "audio_url": "https://librosa.org/data/audio/5703-47212-0000.hq.ogg",
+      "audio_sha256": "f09254a0daf4b14b292868d46dc2e3c8e158d19fafff739ad4c3931e2ce7b1b0",
+      "info_url": "https://librosa.org/data/audio/5703-47212-0000.txt",
+      "info_sha256": "1c5bd5eb792ff0d2fbe895e3a3dd0acf3beb48ee364e64e12cde3a646304a9f4"
+    },
+    {
+      "utterance_id": "3436-172162-0000",
+      "speaker_id": "3436",
+      "example_key": "libri2",
+      "audio_url": "https://librosa.org/data/audio/3436-172162-0000.hq.ogg",
+      "audio_sha256": "8e034529f2f171c7e5e772df6eccc2d169183c39605b45b351c2bfabddf14162",
+      "info_url": "https://librosa.org/data/audio/3436-172162-0000.txt",
+      "info_sha256": "8cf4b20e148c4366205bc607f447c169256e945d62c64ead43d0a4dfa7d3ab98"
+    },
+    {
+      "utterance_id": "198-209-0000",
+      "speaker_id": "198",
+      "example_key": "libri3",
+      "audio_url": "https://librosa.org/data/audio/198-209-0000.hq.ogg",
+      "audio_sha256": "6a8d2c16e56dcb27b7f5fe5aa99bfd26b4722a6dabca1968eff951b456936514",
+      "info_url": "https://librosa.org/data/audio/198-209-0000.txt",
+      "info_sha256": "c5bf58b2a4aa0d6bf1e6051690312f3238960d455776a6d37e469d80db1da167"
+    }
+  ]
+}
+

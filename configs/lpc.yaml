@@ -1,0 +1,44 @@
+experiment_id: E_M3_lpc_smoke_v1
+experiment_kind: lpc_comparison_v1
+data:
+  manifest: data/manifests/smoke.jsonl
+  scope: development_smoke_only
+  seed: 20261017
+audio:
+  embed_sample_rate: 16000
+  joint_peak_limit: 0.90
+spectral:
+  frame_ms: 20
+  hop_ms: 10
+  low_hz: 500
+  high_hz_exclusive: 3650
+  expected_bins: 63
+  cepstral_cutoff_ms: 0.5
+lpc:
+  order: 16
+  alpha: 0.35
+  gaussian_sigma_db: 13.5
+  ridge_relative: 0.000001
+  energy_floor: 0.000000000001
+  denominator_power_floor: 0.000000000001
+  centering: watermark_band_per_frame
+key:
+  path: data/keys/watermark_20261017.json
+  seed: 20261017
+  bit_generator: PCG64
+evaluation:
+  methods: [SS, SS_LPC]
+  deltas_db: [0, 0.5, 1, 2, 3, 4, 6, 8]
+  channels: [clean, downsample_8k, noise20_downsample_8k, noise15_downsample_8k]
+  aggregate_frames: [1, 10, 30]
+  primary_frames: 1
+  vad:
+    mode: webrtc
+    aggressiveness: 2
+  compute_pesq: true
+  quality_match:
+    target_nb_pesq: 4.4
+    tolerance: 0.02
+    selection: measured_global_means_only_before_channel_scores
+output:
+  root: outputs

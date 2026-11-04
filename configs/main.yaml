@@ -1,0 +1,91 @@
+experiment_id: E_M5_librispeech_main_v1
+experiment_kind: formal_main_v1
+data:
+  manifest: data/manifests/librispeech_m5_v1/all.jsonl
+  dataset_directory: data/manifests/librispeech_m5_v1
+  scope: fixed_public_alternative_corpus_main_experiments_not_TIMIT
+audio:
+  embed_sample_rate: 16000
+  joint_peak_limit: 0.9
+spectral:
+  frame_ms: 20
+  hop_ms: 10
+  low_hz: 500
+  high_hz_exclusive: 3650
+  expected_bins: 63
+  cepstral_cutoff_ms: 0.5
+key:
+  path: data/keys/watermark_20261017.json
+  bit_generator: PCG64
+conditions:
+- id: C1
+  delta_db: 1
+  channel: downsample_8k
+- id: C3
+  delta_db: 3
+  channel: opus8k_8kbps
+training:
+  architectures:
+  - A
+  - B
+  device: cpu
+  cpu_threads: 1
+  epochs: 25
+  batch_size: 1024
+  normalization: none
+  optimizer:
+    lr: 0.001
+    alpha: 0.99
+    eps: 1.0e-08
+    weight_decay: 0
+    momentum: 0
+    centered: false
+    foreach: false
+  seeds:
+  - 2026
+  - 2027
+  - 2028
+evaluation:
+  aggregate_frames:
+  - 1
+  - 2
+  - 5
+  - 10
+  - 15
+  - 20
+  - 25
+  - 30
+  vad:
+    mode: webrtc
+    aggressiveness: 2
+  primary_checkpoint: final_epoch
+  calibration_split: validation
+  primary_split: test
+  quality_deltas_db:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 6
+  - 8
+  quality_target_nb: 4.4
+  quality_tolerance: 0.02
+  noise_channels:
+  - noise20_downsample_8k
+  - noise15_downsample_8k
+  lpc_aggregate_frames:
+  - 1
+  - 10
+  - 30
+  zero_control_utterances_per_split: 10
+output:
+  root: outputs
+lpc:
+  order: 16
+  alpha: 0.35
+  gaussian_sigma_db: 13.5
+  ridge_relative: 1.0e-06
+  energy_floor: 1.0e-12
+  denominator_power_floor: 1.0e-12
+  centering: watermark_band_per_frame

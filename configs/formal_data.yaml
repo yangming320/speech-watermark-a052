@@ -1,0 +1,48 @@
+dataset_id: librispeech_m5_v1
+scope: project_main_experiments_on_fixed_public_subset_not_TIMIT
+seed: 20261018
+license: CC-BY-4.0
+language: en
+source_pages:
+- https://www.openslr.org/31/
+- https://www.openslr.org/12/
+archives:
+- name: train-clean-5.tar.gz
+  url: https://www.openslr.org/resources/31/train-clean-5.tar.gz
+  md5: 5df7d4e78065366204ca6845bb08f490
+  role: training_pool
+- name: dev-clean-2.tar.gz
+  url: https://www.openslr.org/resources/31/dev-clean-2.tar.gz
+  md5: 6d7ab67ac6a1d2c993d050e16d61080d
+  role: validation_pool
+- name: test-clean.tar.gz
+  url: https://www.openslr.org/resources/12/test-clean.tar.gz
+  md5: 32fa31d27d2e1cad72775fee3f4849a9
+  role: test_pool
+exclude_speakers:
+- '5703'
+- '3436'
+- '198'
+selection:
+  clip_seconds: 3.0
+  crop: centered_single_clip_per_original_utterance
+  sample_rate: 16000
+  peak_limit: 0.5
+  train:
+    speakers_per_gender: 12
+    utterances_per_speaker: 12
+  validation:
+    speakers_per_gender: 5
+    utterances_per_speaker: 8
+  test:
+    speakers_per_gender: 20
+    utterances_per_speaker: 5
+  ordering: sha256_of_seed_role_identifier
+  pool_by_split:
+    train: training_pool
+    validation: validation_pool
+    test: test_pool
+cache_directory: .cache/m5-downloads
+raw_directory: data/raw/librispeech_m5_v1
+processed_directory: data/processed/librispeech_m5_v1
+manifest_directory: data/manifests/librispeech_m5_v1

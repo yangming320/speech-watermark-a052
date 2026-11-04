@@ -1,0 +1,32 @@
+experiment_id: E_M2_channels_smoke_v1
+channel_protocol: controlled_v1
+data:
+  manifest: data/manifests/smoke.jsonl
+  scope: development_smoke_only
+  seed: 20261017
+audio:
+  embed_sample_rate: 16000
+  peak_limit: 0.5
+spectral:
+  frame_ms: 20
+  hop_ms: 10
+  low_hz: 500
+  high_hz_exclusive: 3650
+  expected_bins: 63
+  cepstral_cutoff_ms: 0.5
+key:
+  path: data/keys/watermark_20261017.json
+  seed: 20261017
+  bit_generator: PCG64
+evaluation:
+  deltas_db: [0, 0.5, 1, 2, 3, 4]
+  channels: [clean, downsample_8k, noise20_downsample_8k, noise15_downsample_8k, opus8k_8kbps]
+  aggregate_frames: [1, 2, 5, 10, 15, 20, 25, 30]
+  vad:
+    mode: webrtc
+    aggressiveness: 2
+    frame_ms: 20
+  compute_pesq: true
+  post_quality_deltas: [1, 3]
+output:
+  root: outputs
