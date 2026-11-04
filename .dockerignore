@@ -1,0 +1,11 @@
+*
+!pyproject.toml
+!requirements-lock.txt
+!src/
+!src/**
+!deployment/
+!deployment/**
+!scripts/
+!scripts/preflight_demo.py
+**/__pycache__/
+**/*.pyc
