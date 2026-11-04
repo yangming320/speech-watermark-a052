@@ -1,0 +1,2415 @@
+{
+  "cases": [
+    {
+      "detector": "M5_C1_A",
+      "label_for_validation_only": 0,
+      "audio_path": "deployment/samples/golden_C1_label0.wav",
+      "audio_sha256": "5e890882b98025c019c2a64784dc30770f7298c1c9bb267f4ec6f1319ecf88fe",
+      "checkpoint_sha256": "1bd83c908c6b4ae9dc021adb0b66ecc485d2e4c34b45583f63896839bb9bbd60",
+      "frames": 30,
+      "source_run": "outputs/E_M5_librispeech_main_v1/main-v1",
+      "source_id": "61-70968-0022_center3s_C1_main_label0",
+      "source_detector": "model_A",
+      "seed": 2026,
+      "groups": [
+        {
+          "group_index": 0,
+          "start_frame_in_valid": 0,
+          "frames": 30,
+          "start_s": 0.01,
+          "end_s": 0.3,
+          "score": -0.1923367736240228
+        },
+        {
+          "group_index": 1,
+          "start_frame_in_valid": 30,
+          "frames": 30,
+          "start_s": 0.31,
+          "end_s": 0.6,
+          "score": -0.4423629770676295
+        },
+        {
+          "group_index": 2,
+          "start_frame_in_valid": 60,
+          "frames": 30,
+          "start_s": 0.61,
+          "end_s": 0.9,
+          "score": -0.7280908738573392
+        },
+        {
+          "group_index": 3,
+          "start_frame_in_valid": 90,
+          "frames": 30,
+          "start_s": 0.91,
+          "end_s": 1.2,
+          "score": -0.17604009211063384
+        },
+        {
+          "group_index": 4,
+          "start_frame_in_valid": 120,
+          "frames": 30,
+          "start_s": 1.21,
+          "end_s": 1.5,
+          "score": 0.1602885067462921
+        },
+        {
+          "group_index": 5,
+          "start_frame_in_valid": 150,
+          "frames": 30,
+          "start_s": 1.51,
+          "end_s": 1.8,
+          "score": -0.28510691548387207
+        },
+        {
+          "group_index": 6,
+          "start_frame_in_valid": 180,
+          "frames": 30,
+          "start_s": 1.81,
+          "end_s": 2.1,
+          "score": 0.555278147260348
+        },
+        {
+          "group_index": 7,
+          "start_frame_in_valid": 210,
+          "frames": 30,
+          "start_s": 2.1100000000000003,
+          "end_s": 2.4000000000000004,
+          "score": 0.18824578697482744
+        },
+        {
+          "group_index": 8,
+          "start_frame_in_valid": 240,
+          "frames": 30,
+          "start_s": 2.41,
+          "end_s": 2.7,
+          "score": -0.17321272964278858
+        }
+      ]
+    },
+    {
+      "detector": "M5_C1_A",
+      "label_for_validation_only": 1,
+      "audio_path": "deployment/samples/golden_C1_label1.wav",
+      "audio_sha256": "0e0e30a28525e65c99b8bfd5ed7fa5b4a5233aa11956f49da000bd159db56898",
+      "checkpoint_sha256": "1bd83c908c6b4ae9dc021adb0b66ecc485d2e4c34b45583f63896839bb9bbd60",
+      "frames": 30,
+      "source_run": "outputs/E_M5_librispeech_main_v1/main-v1",
+      "source_id": "61-70968-0022_center3s_C1_main_label1",
+      "source_detector": "model_A",
+      "seed": 2026,
+      "groups": [
+        {
+          "group_index": 0,
+          "start_frame_in_valid": 0,
+          "frames": 30,
+          "start_s": 0.01,
+          "end_s": 0.3,
+          "score": 0.41469882130622865
+        },
+        {
+          "group_index": 1,
+          "start_frame_in_valid": 30,
+          "frames": 30,
+          "start_s": 0.31,
+          "end_s": 0.6,
+          "score": 0.1084724356730779
+        },
+        {
+          "group_index": 2,
+          "start_frame_in_valid": 60,
+          "frames": 30,
+          "start_s": 0.61,
+          "end_s": 0.9,
+          "score": -0.13738063077131907
+        },
+        {
+          "group_index": 3,
+          "start_frame_in_valid": 90,
+          "frames": 30,
+          "start_s": 0.91,
+          "end_s": 1.2,
+          "score": 0.41153190384308497
+        },
+        {
+          "group_index": 4,
+          "start_frame_in_valid": 120,
+          "frames": 30,
+          "start_s": 1.21,
+          "end_s": 1.5,
+          "score": 0.6860925659537316
+        },
+        {
+          "group_index": 5,
+          "start_frame_in_valid": 150,
+          "frames": 30,
+          "start_s": 1.51,
+          "end_s": 1.8,
+          "score": 0.5118552928169569
+        },
+        {
+          "group_index": 6,
+          "start_frame_in_valid": 180,
+          "frames": 30,
+          "start_s": 1.81,
+          "end_s": 2.1,
+          "score": 1.1801656213899454
+        },
+        {
+          "group_index": 7,
+          "start_frame_in_valid": 210,
+          "frames": 30,
+          "start_s": 2.1100000000000003,
+          "end_s": 2.4000000000000004,
+          "score": 0.8055745820204417
+        },
+        {
+          "group_index": 8,
+          "start_frame_in_valid": 240,
+          "frames": 30,
+          "start_s": 2.41,
+          "end_s": 2.7,
+          "score": 0.3852978192269802
+        }
+      ]
+    },
+    {
+      "detector": "M5_C1_B",
+      "label_for_validation_only": 0,
+      "audio_path": "deployment/samples/golden_C1_label0.wav",
+      "audio_sha256": "5e890882b98025c019c2a64784dc30770f7298c1c9bb267f4ec6f1319ecf88fe",
+      "checkpoint_sha256": "0fae1cd246fe919b06e7f63d4321a2f9bbd3862f03d9c1d25e11314cccf9ce4b",
+      "frames": 30,
+      "source_run": "outputs/E_M5_librispeech_main_v1/main-v1",
+      "source_id": "61-70968-0022_center3s_C1_main_label0",
+      "source_detector": "model_B",
+      "seed": 2026,
+      "groups": [
+        {
+          "group_index": 0,
+          "start_frame_in_valid": 0,
+          "frames": 30,
+          "start_s": 0.01,
+          "end_s": 0.3,
+          "score": -0.17318410376707713
+        },
+        {
+          "group_index": 1,
+          "start_frame_in_valid": 30,
+          "frames": 30,
+          "start_s": 0.31,
+          "end_s": 0.6,
+          "score": -0.49484378038129456
+        },
+        {
+          "group_index": 2,
+          "start_frame_in_valid": 60,
+          "frames": 30,
+          "start_s": 0.61,
+          "end_s": 0.9,
+          "score": -0.5820069943321868
+        },
+        {
+          "group_index": 3,
+          "start_frame_in_valid": 90,
+          "frames": 30,
+          "start_s": 0.91,
+          "end_s": 1.2,
+          "score": -0.27437434208889805
+        },
+        {
+          "group_index": 4,
+          "start_frame_in_valid": 120,
+          "frames": 30,
+          "start_s": 1.21,
+          "end_s": 1.5,
+          "score": -0.04966722174237172
+        },
+        {
+          "group_index": 5,
+          "start_frame_in_valid": 150,
+          "frames": 30,
+          "start_s": 1.51,
+          "end_s": 1.8,
+          "score": -0.33643594322105247
+        },
+        {
+          "group_index": 6,
+          "start_frame_in_valid": 180,
+          "frames": 30,
+          "start_s": 1.81,
+          "end_s": 2.1,
+          "score": 0.40869996839513384
+        },
+        {
+          "group_index": 7,
+          "start_frame_in_valid": 210,
+          "frames": 30,
+          "start_s": 2.1100000000000003,
+          "end_s": 2.4000000000000004,
+          "score": 0.04936514142900705
+        },
+        {
+          "group_index": 8,
+          "start_frame_in_valid": 240,
+          "frames": 30,
+          "start_s": 2.41,
+          "end_s": 2.7,
+          "score": -0.22562263415505487
+        }
+      ]
+    },
+    {
+      "detector": "M5_C1_B",
+      "label_for_validation_only": 1,
+      "audio_path": "deployment/samples/golden_C1_label1.wav",
+      "audio_sha256": "0e0e30a28525e65c99b8bfd5ed7fa5b4a5233aa11956f49da000bd159db56898",
+      "checkpoint_sha256": "0fae1cd246fe919b06e7f63d4321a2f9bbd3862f03d9c1d25e11314cccf9ce4b",
+      "frames": 30,
+      "source_run": "outputs/E_M5_librispeech_main_v1/main-v1",
+      "source_id": "61-70968-0022_center3s_C1_main_label1",
+      "source_detector": "model_B",
+      "seed": 2026,
+      "groups": [
+        {
+          "group_index": 0,
+          "start_frame_in_valid": 0,
+          "frames": 30,
+          "start_s": 0.01,
+          "end_s": 0.3,
+          "score": 0.35631242897361515
+        },
+        {
+          "group_index": 1,
+          "start_frame_in_valid": 30,
+          "frames": 30,
+          "start_s": 0.31,
+          "end_s": 0.6,
+          "score": -0.012946934190889199
+        },
+        {
+          "group_index": 2,
+          "start_frame_in_valid": 60,
+          "frames": 30,
+          "start_s": 0.61,
+          "end_s": 0.9,
+          "score": -0.1022295298675696
+        },
+        {
+          "group_index": 3,
+          "start_frame_in_valid": 90,
+          "frames": 30,
+          "start_s": 0.91,
+          "end_s": 1.2,
+          "score": 0.24487780382235844
+        },
+        {
+          "group_index": 4,
+          "start_frame_in_valid": 120,
+          "frames": 30,
+          "start_s": 1.21,
+          "end_s": 1.5,
+          "score": 0.4282590135311087
+        },
+        {
+          "group_index": 5,
+          "start_frame_in_valid": 150,
+          "frames": 30,
+          "start_s": 1.51,
+          "end_s": 1.8,
+          "score": 0.3097345362106959
+        },
+        {
+          "group_index": 6,
+          "start_frame_in_valid": 180,
+          "frames": 30,
+          "start_s": 1.81,
+          "end_s": 2.1,
+          "score": 0.9059959908326467
+        },
+        {
+          "group_index": 7,
+          "start_frame_in_valid": 210,
+          "frames": 30,
+          "start_s": 2.1100000000000003,
+          "end_s": 2.4000000000000004,
+          "score": 0.6069016598785917
+        },
+        {
+          "group_index": 8,
+          "start_frame_in_valid": 240,
+          "frames": 30,
+          "start_s": 2.41,
+          "end_s": 2.7,
+          "score": 0.29177923140426476
+        }
+      ]
+    },
+    {
+      "detector": "M5_C3_A",
+      "label_for_validation_only": 0,
+      "audio_path": "deployment/samples/golden_C3_label0.wav",
+      "audio_sha256": "07f134333463607a12ab566f2a1b1b195a821ac91f273fd6e7665e96a7166dd6",
+      "checkpoint_sha256": "d5b47e5cc21db5382b60ad3290a28af4483cbf0d93e9a9ac0a2287ff504ffc22",
+      "frames": 30,
+      "source_run": "outputs/E_M5_librispeech_main_v1/main-v1",
+      "source_id": "61-70968-0022_center3s_C3_main_label0",
+      "source_detector": "model_A",
+      "seed": 2026,
+      "groups": [
+        {
+          "group_index": 0,
+          "start_frame_in_valid": 0,
+          "frames": 30,
+          "start_s": 0.01,
+          "end_s": 0.3,
+          "score": -0.47204333879053595
+        },
+        {
+          "group_index": 1,
+          "start_frame_in_valid": 30,
+          "frames": 30,
+          "start_s": 0.31,
+          "end_s": 0.6,
+          "score": -0.7627209644764662
+        },
+        {
+          "group_index": 2,
+          "start_frame_in_valid": 60,
+          "frames": 30,
+          "start_s": 0.61,
+          "end_s": 0.9,
+          "score": -0.36965534947812556
+        },
+        {
+          "group_index": 3,
+          "start_frame_in_valid": 90,
+          "frames": 30,
+          "start_s": 0.91,
+          "end_s": 1.2,
+          "score": -0.16799276818831763
+        },
+        {
+          "group_index": 4,
+          "start_frame_in_valid": 120,
+          "frames": 30,
+          "start_s": 1.21,
+          "end_s": 1.5,
+          "score": 0.1971597814311584
+        },
+        {
+          "group_index": 5,
+          "start_frame_in_valid": 150,
+          "frames": 30,
+          "start_s": 1.51,
+          "end_s": 1.8,
+          "score": -0.42151179239153863
+        },
+        {
+          "group_index": 6,
+          "start_frame_in_valid": 180,
+          "frames": 30,
+          "start_s": 1.81,
+          "end_s": 2.1,
+          "score": 0.3780375455816587
+        },
+        {
+          "group_index": 7,
+          "start_frame_in_valid": 210,
+          "frames": 30,
+          "start_s": 2.1100000000000003,
+          "end_s": 2.4000000000000004,
+          "score": 0.25017946350077785
+        },
+        {
+          "group_index": 8,
+          "start_frame_in_valid": 240,
+          "frames": 30,
+          "start_s": 2.41,
+          "end_s": 2.7,
+          "score": -0.23664130469163258
+        }
+      ]
+    },
+    {
+      "detector": "M5_C3_A",
+      "label_for_validation_only": 1,
+      "audio_path": "deployment/samples/golden_C3_label1.wav",
+      "audio_sha256": "5b07594aceb85c394255bd9f50a5cd70fb0036acb0fe6a8c5132d1d95802e930",
+      "checkpoint_sha256": "d5b47e5cc21db5382b60ad3290a28af4483cbf0d93e9a9ac0a2287ff504ffc22",
+      "frames": 30,
+      "source_run": "outputs/E_M5_librispeech_main_v1/main-v1",
+      "source_id": "61-70968-0022_center3s_C3_main_label1",
+      "source_detector": "model_A",
+      "seed": 2026,
+      "groups": [
+        {
+          "group_index": 0,
+          "start_frame_in_valid": 0,
+          "frames": 30,
+          "start_s": 0.01,
+          "end_s": 0.3,
+          "score": 0.7884548830489317
+        },
+        {
+          "group_index": 1,
+          "start_frame_in_valid": 30,
+          "frames": 30,
+          "start_s": 0.31,
+          "end_s": 0.6,
+          "score": -0.025446611270308495
+        },
+        {
+          "group_index": 2,
+          "start_frame_in_valid": 60,
+          "frames": 30,
+          "start_s": 0.61,
+          "end_s": 0.9,
+          "score": 0.016487520312269528
+        },
+        {
+          "group_index": 3,
+          "start_frame_in_valid": 90,
+          "frames": 30,
+          "start_s": 0.91,
+          "end_s": 1.2,
+          "score": 0.4130665318419536
+        },
+        {
+          "group_index": 4,
+          "start_frame_in_valid": 120,
+          "frames": 30,
+          "start_s": 1.21,
+          "end_s": 1.5,
+          "score": 0.5847813709328572
+        },
+        {
+          "group_index": 5,
+          "start_frame_in_valid": 150,
+          "frames": 30,
+          "start_s": 1.51,
+          "end_s": 1.8,
+          "score": 0.8114419165998698
+        },
+        {
+          "group_index": 6,
+          "start_frame_in_valid": 180,
+          "frames": 30,
+          "start_s": 1.81,
+          "end_s": 2.1,
+          "score": 1.01009799875319
+        },
+        {
+          "group_index": 7,
+          "start_frame_in_valid": 210,
+          "frames": 30,
+          "start_s": 2.1100000000000003,
+          "end_s": 2.4000000000000004,
+          "score": 0.9440383840352297
+        },
+        {
+          "group_index": 8,
+          "start_frame_in_valid": 240,
+          "frames": 30,
+          "start_s": 2.41,
+          "end_s": 2.7,
+          "score": 0.43079234212636947
+        }
+      ]
+    },
+    {
+      "detector": "M5_C3_B",
+      "label_for_validation_only": 0,
+      "audio_path": "deployment/samples/golden_C3_label0.wav",
+      "audio_sha256": "07f134333463607a12ab566f2a1b1b195a821ac91f273fd6e7665e96a7166dd6",
+      "checkpoint_sha256": "37c050fad74a59e49f17959d0f54d6fe8fc50d705c99e91912122e52b953400d",
+      "frames": 30,
+      "source_run": "outputs/E_M5_librispeech_main_v1/main-v1",
+      "source_id": "61-70968-0022_center3s_C3_main_label0",
+      "source_detector": "model_B",
+      "seed": 2026,
+      "groups": [
+        {
+          "group_index": 0,
+          "start_frame_in_valid": 0,
+          "frames": 30,
+          "start_s": 0.01,
+          "end_s": 0.3,
+          "score": -0.3919510630269845
+        },
+        {
+          "group_index": 1,
+          "start_frame_in_valid": 30,
+          "frames": 30,
+          "start_s": 0.31,
+          "end_s": 0.6,
+          "score": -0.840823981910944
+        },
+        {
+          "group_index": 2,
+          "start_frame_in_valid": 60,
+          "frames": 30,
+          "start_s": 0.61,
+          "end_s": 0.9,
+          "score": -0.44992337947090466
+        },
+        {
+          "group_index": 3,
+          "start_frame_in_valid": 90,
+          "frames": 30,
+          "start_s": 0.91,
+          "end_s": 1.2,
+          "score": -0.15290684575835864
+        },
+        {
+          "group_index": 4,
+          "start_frame_in_valid": 120,
+          "frames": 30,
+          "start_s": 1.21,
+          "end_s": 1.5,
+          "score": 0.04560604070623716
+        },
+        {
+          "group_index": 5,
+          "start_frame_in_valid": 150,
+          "frames": 30,
+          "start_s": 1.51,
+          "end_s": 1.8,
+          "score": -0.43947503517071407
+        },
+        {
+          "group_index": 6,
+          "start_frame_in_valid": 180,
+          "frames": 30,
+          "start_s": 1.81,
+          "end_s": 2.1,
+          "score": 0.20994211435317994
+        },
+        {
+          "group_index": 7,
+          "start_frame_in_valid": 210,
+          "frames": 30,
+          "start_s": 2.1100000000000003,
+          "end_s": 2.4000000000000004,
+          "score": -0.00822567418217659
+        },
+        {
+          "group_index": 8,
+          "start_frame_in_valid": 240,
+          "frames": 30,
+          "start_s": 2.41,
+          "end_s": 2.7,
+          "score": -0.15957192244629065
+        }
+      ]
+    },
+    {
+      "detector": "M5_C3_B",
+      "label_for_validation_only": 1,
+      "audio_path": "deployment/samples/golden_C3_label1.wav",
+      "audio_sha256": "5b07594aceb85c394255bd9f50a5cd70fb0036acb0fe6a8c5132d1d95802e930",
+      "checkpoint_sha256": "37c050fad74a59e49f17959d0f54d6fe8fc50d705c99e91912122e52b953400d",
+      "frames": 30,
+      "source_run": "outputs/E_M5_librispeech_main_v1/main-v1",
+      "source_id": "61-70968-0022_center3s_C3_main_label1",
+      "source_detector": "model_B",
+      "seed": 2026,
+      "groups": [
+        {
+          "group_index": 0,
+          "start_frame_in_valid": 0,
+          "frames": 30,
+          "start_s": 0.01,
+          "end_s": 0.3,
+          "score": 0.6745878467957179
+        },
+        {
+          "group_index": 1,
+          "start_frame_in_valid": 30,
+          "frames": 30,
+          "start_s": 0.31,
+          "end_s": 0.6,
+          "score": -0.13705298826098442
+        },
+        {
+          "group_index": 2,
+          "start_frame_in_valid": 60,
+          "frames": 30,
+          "start_s": 0.61,
+          "end_s": 0.9,
+          "score": 0.045395851135253906
+        },
+        {
+          "group_index": 3,
+          "start_frame_in_valid": 90,
+          "frames": 30,
+          "start_s": 0.91,
+          "end_s": 1.2,
+          "score": 0.4822820017735163
+        },
+        {
+          "group_index": 4,
+          "start_frame_in_valid": 120,
+          "frames": 30,
+          "start_s": 1.21,
+          "end_s": 1.5,
+          "score": 0.4704856143643459
+        },
+        {
+          "group_index": 5,
+          "start_frame_in_valid": 150,
+          "frames": 30,
+          "start_s": 1.51,
+          "end_s": 1.8,
+          "score": 0.6448017238328855
+        },
+        {
+          "group_index": 6,
+          "start_frame_in_valid": 180,
+          "frames": 30,
+          "start_s": 1.81,
+          "end_s": 2.1,
+          "score": 0.8715857510765394
+        },
+        {
+          "group_index": 7,
+          "start_frame_in_valid": 210,
+          "frames": 30,
+          "start_s": 2.1100000000000003,
+          "end_s": 2.4000000000000004,
+          "score": 0.7630090437829494
+        },
+        {
+          "group_index": 8,
+          "start_frame_in_valid": 240,
+          "frames": 30,
+          "start_s": 2.41,
+          "end_s": 2.7,
+          "score": 0.45251418674985566
+        }
+      ]
+    },
+    {
+      "detector": "M6_MIXED_A",
+      "label_for_validation_only": 0,
+      "audio_path": "deployment/samples/golden_R6_label0.wav",
+      "audio_sha256": "825f58406d5affbb0a4a93ce561203b0ee4b45072132f8a55d74b49284bb8d63",
+      "checkpoint_sha256": "8153a0f1cfc80a27e068a4a375bb3238e76e7d62f31a3201e228ea158ce83d7c",
+      "frames": 30,
+      "source_run": "outputs/E_M6_extensions_v1/extensions-v1",
+      "source_id": "61-70968-0022_center3s_R6_main_label0",
+      "source_detector": "mixed_A",
+      "seed": 2026,
+      "groups": [
+        {
+          "group_index": 0,
+          "start_frame_in_valid": 0,
+          "frames": 30,
+          "start_s": 0.01,
+          "end_s": 0.3,
+          "score": -0.46496506134668986
+        },
+        {
+          "group_index": 1,
+          "start_frame_in_valid": 30,
+          "frames": 30,
+          "start_s": 0.31,
+          "end_s": 0.6,
+          "score": -0.7512309600909551
+        },
+        {
+          "group_index": 2,
+          "start_frame_in_valid": 60,
+          "frames": 30,
+          "start_s": 0.61,
+          "end_s": 0.9,
+          "score": -0.952846941848596
+        },
+        {
+          "group_index": 3,
+          "start_frame_in_valid": 90,
+          "frames": 30,
+          "start_s": 0.91,
+          "end_s": 1.2,
+          "score": 0.039238260686397554
+        },
+        {
+          "group_index": 4,
+          "start_frame_in_valid": 120,
+          "frames": 30,
+          "start_s": 1.21,
+          "end_s": 1.5,
+          "score": 0.19325437992811204
+        },
+        {
+          "group_index": 5,
+          "start_frame_in_valid": 150,
+          "frames": 30,
+          "start_s": 1.51,
+          "end_s": 1.8,
+          "score": -0.41825650334358216
+        },
+        {
+          "group_index": 6,
+          "start_frame_in_valid": 180,
+          "frames": 30,
+          "start_s": 1.81,
+          "end_s": 2.1,
+          "score": -0.02038426660001278
+        },
+        {
+          "group_index": 7,
+          "start_frame_in_valid": 210,
+          "frames": 30,
+          "start_s": 2.1100000000000003,
+          "end_s": 2.4000000000000004,
+          "score": 0.041148526966571806
+        },
+        {
+          "group_index": 8,
+          "start_frame_in_valid": 240,
+          "frames": 30,
+          "start_s": 2.41,
+          "end_s": 2.7,
+          "score": -0.16221279725432397
+        }
+      ]
+    },
+    {
+      "detector": "M6_MIXED_A",
+      "label_for_validation_only": 1,
+      "audio_path": "deployment/samples/golden_R6_label1.wav",
+      "audio_sha256": "f903bc22f5742b103147b5ee3a22ad4a2ac0df29c07368315c59c606b7d89eac",
+      "checkpoint_sha256": "8153a0f1cfc80a27e068a4a375bb3238e76e7d62f31a3201e228ea158ce83d7c",
+      "frames": 30,
+      "source_run": "outputs/E_M6_extensions_v1/extensions-v1",
+      "source_id": "61-70968-0022_center3s_R6_main_label1",
+      "source_detector": "mixed_A",
+      "seed": 2026,
+      "groups": [
+        {
+          "group_index": 0,
+          "start_frame_in_valid": 0,
+          "frames": 30,
+          "start_s": 0.01,
+          "end_s": 0.3,
+          "score": 0.3401598006486893
+        },
+        {
+          "group_index": 1,
+          "start_frame_in_valid": 30,
+          "frames": 30,
+          "start_s": 0.31,
+          "end_s": 0.6,
+          "score": -0.13705813164512318
+        },
+        {
+          "group_index": 2,
+          "start_frame_in_valid": 60,
+          "frames": 30,
+          "start_s": 0.61,
+          "end_s": 0.9,
+          "score": -0.021507274359464645
+        },
+        {
+          "group_index": 3,
+          "start_frame_in_valid": 90,
+          "frames": 30,
+          "start_s": 0.91,
+          "end_s": 1.2,
+          "score": 0.32370045197506747
+        },
+        {
+          "group_index": 4,
+          "start_frame_in_valid": 120,
+          "frames": 30,
+          "start_s": 1.21,
+          "end_s": 1.5,
+          "score": 0.452353568871816
+        },
+        {
+          "group_index": 5,
+          "start_frame_in_valid": 150,
+          "frames": 30,
+          "start_s": 1.51,
+          "end_s": 1.8,
+          "score": 0.7716638160248598
+        },
+        {
+          "group_index": 6,
+          "start_frame_in_valid": 180,
+          "frames": 30,
+          "start_s": 1.81,
+          "end_s": 2.1,
+          "score": 0.9595734983682632
+        },
+        {
+          "group_index": 7,
+          "start_frame_in_valid": 210,
+          "frames": 30,
+          "start_s": 2.1100000000000003,
+          "end_s": 2.4000000000000004,
+          "score": 0.5452956515053908
+        },
+        {
+          "group_index": 8,
+          "start_frame_in_valid": 240,
+          "frames": 30,
+          "start_s": 2.41,
+          "end_s": 2.7,
+          "score": 0.3562729172408581
+        }
+      ]
+    },
+    {
+      "detector": "M6_MIXED_B",
+      "label_for_validation_only": 0,
+      "audio_path": "deployment/samples/golden_R6_label0.wav",
+      "audio_sha256": "825f58406d5affbb0a4a93ce561203b0ee4b45072132f8a55d74b49284bb8d63",
+      "checkpoint_sha256": "83dfe7efc1d3f348a124d1065d14a29baa55ccab05cf0220939a3f317ec3cac8",
+      "frames": 30,
+      "source_run": "outputs/E_M6_extensions_v1/extensions-v1",
+      "source_id": "61-70968-0022_center3s_R6_main_label0",
+      "source_detector": "mixed_B",
+      "seed": 2026,
+      "groups": [
+        {
+          "group_index": 0,
+          "start_frame_in_valid": 0,
+          "frames": 30,
+          "start_s": 0.01,
+          "end_s": 0.3,
+          "score": -0.505350154514114
+        },
+        {
+          "group_index": 1,
+          "start_frame_in_valid": 30,
+          "frames": 30,
+          "start_s": 0.31,
+          "end_s": 0.6,
+          "score": -0.6955047566443682
+        },
+        {
+          "group_index": 2,
+          "start_frame_in_valid": 60,
+          "frames": 30,
+          "start_s": 0.61,
+          "end_s": 0.9,
+          "score": -0.7721833818902571
+        },
+        {
+          "group_index": 3,
+          "start_frame_in_valid": 90,
+          "frames": 30,
+          "start_s": 0.91,
+          "end_s": 1.2,
+          "score": 0.044790487239758175
+        },
+        {
+          "group_index": 4,
+          "start_frame_in_valid": 120,
+          "frames": 30,
+          "start_s": 1.21,
+          "end_s": 1.5,
+          "score": 0.008448834593097369
+        },
+        {
+          "group_index": 5,
+          "start_frame_in_valid": 150,
+          "frames": 30,
+          "start_s": 1.51,
+          "end_s": 1.8,
+          "score": -0.34299722462892535
+        },
+        {
+          "group_index": 6,
+          "start_frame_in_valid": 180,
+          "frames": 30,
+          "start_s": 1.81,
+          "end_s": 2.1,
+          "score": 0.09401472049454848
+        },
+        {
+          "group_index": 7,
+          "start_frame_in_valid": 210,
+          "frames": 30,
+          "start_s": 2.1100000000000003,
+          "end_s": 2.4000000000000004,
+          "score": -0.09291727567712466
+        },
+        {
+          "group_index": 8,
+          "start_frame_in_valid": 240,
+          "frames": 30,
+          "start_s": 2.41,
+          "end_s": 2.7,
+          "score": -0.27516982704401016
+        }
+      ]
+    },
+    {
+      "detector": "M6_MIXED_B",
+      "label_for_validation_only": 1,
+      "audio_path": "deployment/samples/golden_R6_label1.wav",
+      "audio_sha256": "f903bc22f5742b103147b5ee3a22ad4a2ac0df29c07368315c59c606b7d89eac",
+      "checkpoint_sha256": "83dfe7efc1d3f348a124d1065d14a29baa55ccab05cf0220939a3f317ec3cac8",
+      "frames": 30,
+      "source_run": "outputs/E_M6_extensions_v1/extensions-v1",
+      "source_id": "61-70968-0022_center3s_R6_main_label1",
+      "source_detector": "mixed_B",
+      "seed": 2026,
+      "groups": [
+        {
+          "group_index": 0,
+          "start_frame_in_valid": 0,
+          "frames": 30,
+          "start_s": 0.01,
+          "end_s": 0.3,
+          "score": 0.3488781977444887
+        },
+        {
+          "group_index": 1,
+          "start_frame_in_valid": 30,
+          "frames": 30,
+          "start_s": 0.31,
+          "end_s": 0.6,
+          "score": -0.29690522588789464
+        },
+        {
+          "group_index": 2,
+          "start_frame_in_valid": 60,
+          "frames": 30,
+          "start_s": 0.61,
+          "end_s": 0.9,
+          "score": -0.0016560220470031102
+        },
+        {
+          "group_index": 3,
+          "start_frame_in_valid": 90,
+          "frames": 30,
+          "start_s": 0.91,
+          "end_s": 1.2,
+          "score": 0.22748976250489553
+        },
+        {
+          "group_index": 4,
+          "start_frame_in_valid": 120,
+          "frames": 30,
+          "start_s": 1.21,
+          "end_s": 1.5,
+          "score": 0.3263635760794083
+        },
+        {
+          "group_index": 5,
+          "start_frame_in_valid": 150,
+          "frames": 30,
+          "start_s": 1.51,
+          "end_s": 1.8,
+          "score": 0.6913977975646655
+        },
+        {
+          "group_index": 6,
+          "start_frame_in_valid": 180,
+          "frames": 30,
+          "start_s": 1.81,
+          "end_s": 2.1,
+          "score": 0.9059075868378083
+        },
+        {
+          "group_index": 7,
+          "start_frame_in_valid": 210,
+          "frames": 30,
+          "start_s": 2.1100000000000003,
+          "end_s": 2.4000000000000004,
+          "score": 0.47648274575670563
+        },
+        {
+          "group_index": 8,
+          "start_frame_in_valid": 240,
+          "frames": 30,
+          "start_s": 2.41,
+          "end_s": 2.7,
+          "score": 0.34228718318045137
+        }
+      ]
+    },
+    {
+      "detector": "M6_E06_D_SS2_A",
+      "label_for_validation_only": 0,
+      "audio_path": "deployment/samples/golden_E06_D_SS_label0.wav",
+      "audio_sha256": "65ceb4c92a58f3c2b980b6279ede43618d36259666f30632852eefef851f65c9",
+      "checkpoint_sha256": "f2fc260a35a0db51cb227beb8d23856e455321d39a5c33583ab3f96e475351c1",
+      "frames": 30,
+      "source_run": "outputs/E_M6_extensions_v1/extensions-v1",
+      "source_id": "61-70968-0022_center3s_E06_D_SS_main_label0",
+      "source_detector": "combo_A",
+      "seed": 2026,
+      "groups": [
+        {
+          "group_index": 0,
+          "start_frame_in_valid": 0,
+          "frames": 30,
+          "start_s": 0.01,
+          "end_s": 0.3,
+          "score": -1.0968293925126393
+        },
+        {
+          "group_index": 1,
+          "start_frame_in_valid": 30,
+          "frames": 30,
+          "start_s": 0.31,
+          "end_s": 0.6,
+          "score": -1.6718506261706352
+        },
+        {
+          "group_index": 2,
+          "start_frame_in_valid": 60,
+          "frames": 30,
+          "start_s": 0.61,
+          "end_s": 0.9,
+          "score": -2.031231103340785
+        },
+        {
+          "group_index": 3,
+          "start_frame_in_valid": 90,
+          "frames": 30,
+          "start_s": 0.91,
+          "end_s": 1.2,
+          "score": -0.9163665259877841
+        },
+        {
+          "group_index": 4,
+          "start_frame_in_valid": 120,
+          "frames": 30,
+          "start_s": 1.21,
+          "end_s": 1.5,
+          "score": -0.7454297423362732
+        },
+        {
+          "group_index": 5,
+          "start_frame_in_valid": 150,
+          "frames": 30,
+          "start_s": 1.51,
+          "end_s": 1.8,
+          "score": -1.3925390779972076
+        },
+        {
+          "group_index": 6,
+          "start_frame_in_valid": 180,
+          "frames": 30,
+          "start_s": 1.81,
+          "end_s": 2.1,
+          "score": 0.1527858018875122
+        },
+        {
+          "group_index": 7,
+          "start_frame_in_valid": 210,
+          "frames": 30,
+          "start_s": 2.1100000000000003,
+          "end_s": 2.4000000000000004,
+          "score": -0.41063682387272515
+        },
+        {
+          "group_index": 8,
+          "start_frame_in_valid": 240,
+          "frames": 30,
+          "start_s": 2.41,
+          "end_s": 2.7,
+          "score": -1.3320206582546235
+        }
+      ]
+    },
+    {
+      "detector": "M6_E06_D_SS2_A",
+      "label_for_validation_only": 1,
+      "audio_path": "deployment/samples/golden_E06_D_SS_label1.wav",
+      "audio_sha256": "04ab47ee5e208907f4c57fbcdb7684ecb8f1ea0cca4f0f7caf934f4a33982c2c",
+      "checkpoint_sha256": "f2fc260a35a0db51cb227beb8d23856e455321d39a5c33583ab3f96e475351c1",
+      "frames": 30,
+      "source_run": "outputs/E_M6_extensions_v1/extensions-v1",
+      "source_id": "61-70968-0022_center3s_E06_D_SS_main_label1",
+      "source_detector": "combo_A",
+      "seed": 2026,
+      "groups": [
+        {
+          "group_index": 0,
+          "start_frame_in_valid": 0,
+          "frames": 30,
+          "start_s": 0.01,
+          "end_s": 0.3,
+          "score": 1.1803506155808767
+        },
+        {
+          "group_index": 1,
+          "start_frame_in_valid": 30,
+          "frames": 30,
+          "start_s": 0.31,
+          "end_s": 0.6,
+          "score": 0.5483839015165964
+        },
+        {
+          "group_index": 2,
+          "start_frame_in_valid": 60,
+          "frames": 30,
+          "start_s": 0.61,
+          "end_s": 0.9,
+          "score": 0.2568330347537994
+        },
+        {
+          "group_index": 3,
+          "start_frame_in_valid": 90,
+          "frames": 30,
+          "start_s": 0.91,
+          "end_s": 1.2,
+          "score": 1.5895877316594125
+        },
+        {
+          "group_index": 4,
+          "start_frame_in_valid": 120,
+          "frames": 30,
+          "start_s": 1.21,
+          "end_s": 1.5,
+          "score": 1.375528089205424
+        },
+        {
+          "group_index": 5,
+          "start_frame_in_valid": 150,
+          "frames": 30,
+          "start_s": 1.51,
+          "end_s": 1.8,
+          "score": 1.3815911283095679
+        },
+        {
+          "group_index": 6,
+          "start_frame_in_valid": 180,
+          "frames": 30,
+          "start_s": 1.81,
+          "end_s": 2.1,
+          "score": 2.5294068425893785
+        },
+        {
+          "group_index": 7,
+          "start_frame_in_valid": 210,
+          "frames": 30,
+          "start_s": 2.1100000000000003,
+          "end_s": 2.4000000000000004,
+          "score": 2.0503817240397137
+        },
+        {
+          "group_index": 8,
+          "start_frame_in_valid": 240,
+          "frames": 30,
+          "start_s": 2.41,
+          "end_s": 2.7,
+          "score": 1.0243348975976307
+        }
+      ]
+    },
+    {
+      "detector": "M6_E06_D_SS2_B",
+      "label_for_validation_only": 0,
+      "audio_path": "deployment/samples/golden_E06_D_SS_label0.wav",
+      "audio_sha256": "65ceb4c92a58f3c2b980b6279ede43618d36259666f30632852eefef851f65c9",
+      "checkpoint_sha256": "f34c249526717147706f9122bd38caa8d4583a9ecde230fc3ce13fd336083d0c",
+      "frames": 30,
+      "source_run": "outputs/E_M6_extensions_v1/extensions-v1",
+      "source_id": "61-70968-0022_center3s_E06_D_SS_main_label0",
+      "source_detector": "combo_B",
+      "seed": 2026,
+      "groups": [
+        {
+          "group_index": 0,
+          "start_frame_in_valid": 0,
+          "frames": 30,
+          "start_s": 0.01,
+          "end_s": 0.3,
+          "score": -0.9616692051291466
+        },
+        {
+          "group_index": 1,
+          "start_frame_in_valid": 30,
+          "frames": 30,
+          "start_s": 0.31,
+          "end_s": 0.6,
+          "score": -1.456027386089166
+        },
+        {
+          "group_index": 2,
+          "start_frame_in_valid": 60,
+          "frames": 30,
+          "start_s": 0.61,
+          "end_s": 0.9,
+          "score": -1.814558719843626
+        },
+        {
+          "group_index": 3,
+          "start_frame_in_valid": 90,
+          "frames": 30,
+          "start_s": 0.91,
+          "end_s": 1.2,
+          "score": -0.973490879436334
+        },
+        {
+          "group_index": 4,
+          "start_frame_in_valid": 120,
+          "frames": 30,
+          "start_s": 1.21,
+          "end_s": 1.5,
+          "score": -0.5631649079422156
+        },
+        {
+          "group_index": 5,
+          "start_frame_in_valid": 150,
+          "frames": 30,
+          "start_s": 1.51,
+          "end_s": 1.8,
+          "score": -1.2375654379526775
+        },
+        {
+          "group_index": 6,
+          "start_frame_in_valid": 180,
+          "frames": 30,
+          "start_s": 1.81,
+          "end_s": 2.1,
+          "score": 0.1837029365201791
+        },
+        {
+          "group_index": 7,
+          "start_frame_in_valid": 210,
+          "frames": 30,
+          "start_s": 2.1100000000000003,
+          "end_s": 2.4000000000000004,
+          "score": -0.33633698150515556
+        },
+        {
+          "group_index": 8,
+          "start_frame_in_valid": 240,
+          "frames": 30,
+          "start_s": 2.41,
+          "end_s": 2.7,
+          "score": -1.0392059552172819
+        }
+      ]
+    },
+    {
+      "detector": "M6_E06_D_SS2_B",
+      "label_for_validation_only": 1,
+      "audio_path": "deployment/samples/golden_E06_D_SS_label1.wav",
+      "audio_sha256": "04ab47ee5e208907f4c57fbcdb7684ecb8f1ea0cca4f0f7caf934f4a33982c2c",
+      "checkpoint_sha256": "f34c249526717147706f9122bd38caa8d4583a9ecde230fc3ce13fd336083d0c",
+      "frames": 30,
+      "source_run": "outputs/E_M6_extensions_v1/extensions-v1",
+      "source_id": "61-70968-0022_center3s_E06_D_SS_main_label1",
+      "source_detector": "combo_B",
+      "seed": 2026,
+      "groups": [
+        {
+          "group_index": 0,
+          "start_frame_in_valid": 0,
+          "frames": 30,
+          "start_s": 0.01,
+          "end_s": 0.3,
+          "score": 1.0711224116384983
+        },
+        {
+          "group_index": 1,
+          "start_frame_in_valid": 30,
+          "frames": 30,
+          "start_s": 0.31,
+          "end_s": 0.6,
+          "score": 0.44154398888349533
+        },
+        {
+          "group_index": 2,
+          "start_frame_in_valid": 60,
+          "frames": 30,
+          "start_s": 0.61,
+          "end_s": 0.9,
+          "score": 0.258069084584713
+        },
+        {
+          "group_index": 3,
+          "start_frame_in_valid": 90,
+          "frames": 30,
+          "start_s": 0.91,
+          "end_s": 1.2,
+          "score": 1.1314559335509935
+        },
+        {
+          "group_index": 4,
+          "start_frame_in_valid": 120,
+          "frames": 30,
+          "start_s": 1.21,
+          "end_s": 1.5,
+          "score": 1.308141826838255
+        },
+        {
+          "group_index": 5,
+          "start_frame_in_valid": 150,
+          "frames": 30,
+          "start_s": 1.51,
+          "end_s": 1.8,
+          "score": 1.1880989799896875
+        },
+        {
+          "group_index": 6,
+          "start_frame_in_valid": 180,
+          "frames": 30,
+          "start_s": 1.81,
+          "end_s": 2.1,
+          "score": 2.0628527839978537
+        },
+        {
+          "group_index": 7,
+          "start_frame_in_valid": 210,
+          "frames": 30,
+          "start_s": 2.1100000000000003,
+          "end_s": 2.4000000000000004,
+          "score": 1.7851803004741669
+        },
+        {
+          "group_index": 8,
+          "start_frame_in_valid": 240,
+          "frames": 30,
+          "start_s": 2.41,
+          "end_s": 2.7,
+          "score": 0.8768300582965215
+        }
+      ]
+    },
+    {
+      "detector": "M6_E06_D_LPC_A",
+      "label_for_validation_only": 0,
+      "audio_path": "deployment/samples/golden_E06_D_SS_LPC_label0.wav",
+      "audio_sha256": "65ceb4c92a58f3c2b980b6279ede43618d36259666f30632852eefef851f65c9",
+      "checkpoint_sha256": "03354e9feb2ff3ae01a607608ba0c3c555dabe60d503b048f530fe4a427969b2",
+      "frames": 30,
+      "source_run": "outputs/E_M6_extensions_v1/extensions-v1",
+      "source_id": "61-70968-0022_center3s_E06_D_SS_LPC_main_label0",
+      "source_detector": "combo_A",
+      "seed": 2026,
+      "groups": [
+        {
+          "group_index": 0,
+          "start_frame_in_valid": 0,
+          "frames": 30,
+          "start_s": 0.01,
+          "end_s": 0.3,
+          "score": -5.280403139193853
+        },
+        {
+          "group_index": 1,
+          "start_frame_in_valid": 30,
+          "frames": 30,
+          "start_s": 0.31,
+          "end_s": 0.6,
+          "score": -6.875831411282221
+        },
+        {
+          "group_index": 2,
+          "start_frame_in_valid": 60,
+          "frames": 30,
+          "start_s": 0.61,
+          "end_s": 0.9,
+          "score": -7.587801522016525
+        },
+        {
+          "group_index": 3,
+          "start_frame_in_valid": 90,
+          "frames": 30,
+          "start_s": 0.91,
+          "end_s": 1.2,
+          "score": -5.903610833485922
+        },
+        {
+          "group_index": 4,
+          "start_frame_in_valid": 120,
+          "frames": 30,
+          "start_s": 1.21,
+          "end_s": 1.5,
+          "score": -3.086571592092514
+        },
+        {
+          "group_index": 5,
+          "start_frame_in_valid": 150,
+          "frames": 30,
+          "start_s": 1.51,
+          "end_s": 1.8,
+          "score": -5.487850904464722
+        },
+        {
+          "group_index": 6,
+          "start_frame_in_valid": 180,
+          "frames": 30,
+          "start_s": 1.81,
+          "end_s": 2.1,
+          "score": -1.9136158148447673
+        },
+        {
+          "group_index": 7,
+          "start_frame_in_valid": 210,
+          "frames": 30,
+          "start_s": 2.1100000000000003,
+          "end_s": 2.4000000000000004,
+          "score": -3.6406974573930104
+        },
+        {
+          "group_index": 8,
+          "start_frame_in_valid": 240,
+          "frames": 30,
+          "start_s": 2.41,
+          "end_s": 2.7,
+          "score": -5.180611848831177
+        }
+      ]
+    },
+    {
+      "detector": "M6_E06_D_LPC_A",
+      "label_for_validation_only": 1,
+      "audio_path": "deployment/samples/golden_E06_D_SS_LPC_label1.wav",
+      "audio_sha256": "0bb2411445ef241a424f6436e2b1d43e8d3eafd71e8a2220a0d33a23eeab96f3",
+      "checkpoint_sha256": "03354e9feb2ff3ae01a607608ba0c3c555dabe60d503b048f530fe4a427969b2",
+      "frames": 30,
+      "source_run": "outputs/E_M6_extensions_v1/extensions-v1",
+      "source_id": "61-70968-0022_center3s_E06_D_SS_LPC_main_label1",
+      "source_detector": "combo_A",
+      "seed": 2026,
+      "groups": [
+        {
+          "group_index": 0,
+          "start_frame_in_valid": 0,
+          "frames": 30,
+          "start_s": 0.01,
+          "end_s": 0.3,
+          "score": 7.565883215268453
+        },
+        {
+          "group_index": 1,
+          "start_frame_in_valid": 30,
+          "frames": 30,
+          "start_s": 0.31,
+          "end_s": 0.6,
+          "score": 5.281133282184601
+        },
+        {
+          "group_index": 2,
+          "start_frame_in_valid": 60,
+          "frames": 30,
+          "start_s": 0.61,
+          "end_s": 0.9,
+          "score": 4.3565769990285235
+        },
+        {
+          "group_index": 3,
+          "start_frame_in_valid": 90,
+          "frames": 30,
+          "start_s": 0.91,
+          "end_s": 1.2,
+          "score": 7.868369817733765
+        },
+        {
+          "group_index": 4,
+          "start_frame_in_valid": 120,
+          "frames": 30,
+          "start_s": 1.21,
+          "end_s": 1.5,
+          "score": 8.186646803220112
+        },
+        {
+          "group_index": 5,
+          "start_frame_in_valid": 150,
+          "frames": 30,
+          "start_s": 1.51,
+          "end_s": 1.8,
+          "score": 8.520854477087656
+        },
+        {
+          "group_index": 6,
+          "start_frame_in_valid": 180,
+          "frames": 30,
+          "start_s": 1.81,
+          "end_s": 2.1,
+          "score": 10.084802436828614
+        },
+        {
+          "group_index": 7,
+          "start_frame_in_valid": 210,
+          "frames": 30,
+          "start_s": 2.1100000000000003,
+          "end_s": 2.4000000000000004,
+          "score": 8.67261406381925
+        },
+        {
+          "group_index": 8,
+          "start_frame_in_valid": 240,
+          "frames": 30,
+          "start_s": 2.41,
+          "end_s": 2.7,
+          "score": 7.323119068145752
+        }
+      ]
+    },
+    {
+      "detector": "M6_E06_D_LPC_B",
+      "label_for_validation_only": 0,
+      "audio_path": "deployment/samples/golden_E06_D_SS_LPC_label0.wav",
+      "audio_sha256": "65ceb4c92a58f3c2b980b6279ede43618d36259666f30632852eefef851f65c9",
+      "checkpoint_sha256": "d39da90b18befd1ba212b3da6ec43fe498dbda486a566977777bb5de625be09e",
+      "frames": 30,
+      "source_run": "outputs/E_M6_extensions_v1/extensions-v1",
+      "source_id": "61-70968-0022_center3s_E06_D_SS_LPC_main_label0",
+      "source_detector": "combo_B",
+      "seed": 2026,
+      "groups": [
+        {
+          "group_index": 0,
+          "start_frame_in_valid": 0,
+          "frames": 30,
+          "start_s": 0.01,
+          "end_s": 0.3,
+          "score": -4.923886638879776
+        },
+        {
+          "group_index": 1,
+          "start_frame_in_valid": 30,
+          "frames": 30,
+          "start_s": 0.31,
+          "end_s": 0.6,
+          "score": -6.4135525266329445
+        },
+        {
+          "group_index": 2,
+          "start_frame_in_valid": 60,
+          "frames": 30,
+          "start_s": 0.61,
+          "end_s": 0.9,
+          "score": -6.651987959941228
+        },
+        {
+          "group_index": 3,
+          "start_frame_in_valid": 90,
+          "frames": 30,
+          "start_s": 0.91,
+          "end_s": 1.2,
+          "score": -4.471990674734116
+        },
+        {
+          "group_index": 4,
+          "start_frame_in_valid": 120,
+          "frames": 30,
+          "start_s": 1.21,
+          "end_s": 1.5,
+          "score": -3.5612873832384744
+        },
+        {
+          "group_index": 5,
+          "start_frame_in_valid": 150,
+          "frames": 30,
+          "start_s": 1.51,
+          "end_s": 1.8,
+          "score": -5.203047557671865
+        },
+        {
+          "group_index": 6,
+          "start_frame_in_valid": 180,
+          "frames": 30,
+          "start_s": 1.81,
+          "end_s": 2.1,
+          "score": -1.9047471035271883
+        },
+        {
+          "group_index": 7,
+          "start_frame_in_valid": 210,
+          "frames": 30,
+          "start_s": 2.1100000000000003,
+          "end_s": 2.4000000000000004,
+          "score": -3.4619982400288185
+        },
+        {
+          "group_index": 8,
+          "start_frame_in_valid": 240,
+          "frames": 30,
+          "start_s": 2.41,
+          "end_s": 2.7,
+          "score": -5.04679836332798
+        }
+      ]
+    },
+    {
+      "detector": "M6_E06_D_LPC_B",
+      "label_for_validation_only": 1,
+      "audio_path": "deployment/samples/golden_E06_D_SS_LPC_label1.wav",
+      "audio_sha256": "0bb2411445ef241a424f6436e2b1d43e8d3eafd71e8a2220a0d33a23eeab96f3",
+      "checkpoint_sha256": "d39da90b18befd1ba212b3da6ec43fe498dbda486a566977777bb5de625be09e",
+      "frames": 30,
+      "source_run": "outputs/E_M6_extensions_v1/extensions-v1",
+      "source_id": "61-70968-0022_center3s_E06_D_SS_LPC_main_label1",
+      "source_detector": "combo_B",
+      "seed": 2026,
+      "groups": [
+        {
+          "group_index": 0,
+          "start_frame_in_valid": 0,
+          "frames": 30,
+          "start_s": 0.01,
+          "end_s": 0.3,
+          "score": 5.671484075983366
+        },
+        {
+          "group_index": 1,
+          "start_frame_in_valid": 30,
+          "frames": 30,
+          "start_s": 0.31,
+          "end_s": 0.6,
+          "score": 4.09065789791445
+        },
+        {
+          "group_index": 2,
+          "start_frame_in_valid": 60,
+          "frames": 30,
+          "start_s": 0.61,
+          "end_s": 0.9,
+          "score": 3.4942047885308662
+        },
+        {
+          "group_index": 3,
+          "start_frame_in_valid": 90,
+          "frames": 30,
+          "start_s": 0.91,
+          "end_s": 1.2,
+          "score": 6.322653849919637
+        },
+        {
+          "group_index": 4,
+          "start_frame_in_valid": 120,
+          "frames": 30,
+          "start_s": 1.21,
+          "end_s": 1.5,
+          "score": 6.565846625963847
+        },
+        {
+          "group_index": 5,
+          "start_frame_in_valid": 150,
+          "frames": 30,
+          "start_s": 1.51,
+          "end_s": 1.8,
+          "score": 6.379758062958717
+        },
+        {
+          "group_index": 6,
+          "start_frame_in_valid": 180,
+          "frames": 30,
+          "start_s": 1.81,
+          "end_s": 2.1,
+          "score": 8.264622688293457
+        },
+        {
+          "group_index": 7,
+          "start_frame_in_valid": 210,
+          "frames": 30,
+          "start_s": 2.1100000000000003,
+          "end_s": 2.4000000000000004,
+          "score": 7.348057523493965
+        },
+        {
+          "group_index": 8,
+          "start_frame_in_valid": 240,
+          "frames": 30,
+          "start_s": 2.41,
+          "end_s": 2.7,
+          "score": 5.625748507181803
+        }
+      ]
+    },
+    {
+      "detector": "M6_E06_O_SS2_A",
+      "label_for_validation_only": 0,
+      "audio_path": "deployment/samples/golden_E06_O_SS_label0.wav",
+      "audio_sha256": "07f134333463607a12ab566f2a1b1b195a821ac91f273fd6e7665e96a7166dd6",
+      "checkpoint_sha256": "accba01c3ebd8da00f2189376e1c0563f59feb859fc036d7ef1f10da425484d9",
+      "frames": 30,
+      "source_run": "outputs/E_M6_extensions_v1/extensions-v1",
+      "source_id": "61-70968-0022_center3s_E06_O_SS_main_label0",
+      "source_detector": "combo_A",
+      "seed": 2026,
+      "groups": [
+        {
+          "group_index": 0,
+          "start_frame_in_valid": 0,
+          "frames": 30,
+          "start_s": 0.01,
+          "end_s": 0.3,
+          "score": -0.08539044906695684
+        },
+        {
+          "group_index": 1,
+          "start_frame_in_valid": 30,
+          "frames": 30,
+          "start_s": 0.31,
+          "end_s": 0.6,
+          "score": -0.5701148033142089
+        },
+        {
+          "group_index": 2,
+          "start_frame_in_valid": 60,
+          "frames": 30,
+          "start_s": 0.61,
+          "end_s": 0.9,
+          "score": -0.12457460314035415
+        },
+        {
+          "group_index": 3,
+          "start_frame_in_valid": 90,
+          "frames": 30,
+          "start_s": 0.91,
+          "end_s": 1.2,
+          "score": 0.07530351659903924
+        },
+        {
+          "group_index": 4,
+          "start_frame_in_valid": 120,
+          "frames": 30,
+          "start_s": 1.21,
+          "end_s": 1.5,
+          "score": 0.24628669135272502
+        },
+        {
+          "group_index": 5,
+          "start_frame_in_valid": 150,
+          "frames": 30,
+          "start_s": 1.51,
+          "end_s": 1.8,
+          "score": -0.2611072294957315
+        },
+        {
+          "group_index": 6,
+          "start_frame_in_valid": 180,
+          "frames": 30,
+          "start_s": 1.81,
+          "end_s": 2.1,
+          "score": 0.3357584659631054
+        },
+        {
+          "group_index": 7,
+          "start_frame_in_valid": 210,
+          "frames": 30,
+          "start_s": 2.1100000000000003,
+          "end_s": 2.4000000000000004,
+          "score": 0.19797178551089017
+        },
+        {
+          "group_index": 8,
+          "start_frame_in_valid": 240,
+          "frames": 30,
+          "start_s": 2.41,
+          "end_s": 2.7,
+          "score": 0.05432044360786677
+        }
+      ]
+    },
+    {
+      "detector": "M6_E06_O_SS2_A",
+      "label_for_validation_only": 1,
+      "audio_path": "deployment/samples/golden_E06_O_SS_label1.wav",
+      "audio_sha256": "dcf2544002c922fc7b4178e60c25193b9a7888442ebc4fa276cfba33ee7a32c7",
+      "checkpoint_sha256": "accba01c3ebd8da00f2189376e1c0563f59feb859fc036d7ef1f10da425484d9",
+      "frames": 30,
+      "source_run": "outputs/E_M6_extensions_v1/extensions-v1",
+      "source_id": "61-70968-0022_center3s_E06_O_SS_main_label1",
+      "source_detector": "combo_A",
+      "seed": 2026,
+      "groups": [
+        {
+          "group_index": 0,
+          "start_frame_in_valid": 0,
+          "frames": 30,
+          "start_s": 0.01,
+          "end_s": 0.3,
+          "score": 0.3624456072847048
+        },
+        {
+          "group_index": 1,
+          "start_frame_in_valid": 30,
+          "frames": 30,
+          "start_s": 0.31,
+          "end_s": 0.6,
+          "score": -0.04951136956612269
+        },
+        {
+          "group_index": 2,
+          "start_frame_in_valid": 60,
+          "frames": 30,
+          "start_s": 0.61,
+          "end_s": 0.9,
+          "score": 0.017912340940286715
+        },
+        {
+          "group_index": 3,
+          "start_frame_in_valid": 90,
+          "frames": 30,
+          "start_s": 0.91,
+          "end_s": 1.2,
+          "score": 0.30463156004746755
+        },
+        {
+          "group_index": 4,
+          "start_frame_in_valid": 120,
+          "frames": 30,
+          "start_s": 1.21,
+          "end_s": 1.5,
+          "score": 0.5196832780415813
+        },
+        {
+          "group_index": 5,
+          "start_frame_in_valid": 150,
+          "frames": 30,
+          "start_s": 1.51,
+          "end_s": 1.8,
+          "score": 0.4259922817349434
+        },
+        {
+          "group_index": 6,
+          "start_frame_in_valid": 180,
+          "frames": 30,
+          "start_s": 1.81,
+          "end_s": 2.1,
+          "score": 0.7406123320261637
+        },
+        {
+          "group_index": 7,
+          "start_frame_in_valid": 210,
+          "frames": 30,
+          "start_s": 2.1100000000000003,
+          "end_s": 2.4000000000000004,
+          "score": 0.5741944655776023
+        },
+        {
+          "group_index": 8,
+          "start_frame_in_valid": 240,
+          "frames": 30,
+          "start_s": 2.41,
+          "end_s": 2.7,
+          "score": 0.2859803148234884
+        }
+      ]
+    },
+    {
+      "detector": "M6_E06_O_SS2_B",
+      "label_for_validation_only": 0,
+      "audio_path": "deployment/samples/golden_E06_O_SS_label0.wav",
+      "audio_sha256": "07f134333463607a12ab566f2a1b1b195a821ac91f273fd6e7665e96a7166dd6",
+      "checkpoint_sha256": "43bae36b1c47db0b4060171c818e33e350a56de17a521f2d4039328072221a61",
+      "frames": 30,
+      "source_run": "outputs/E_M6_extensions_v1/extensions-v1",
+      "source_id": "61-70968-0022_center3s_E06_O_SS_main_label0",
+      "source_detector": "combo_B",
+      "seed": 2026,
+      "groups": [
+        {
+          "group_index": 0,
+          "start_frame_in_valid": 0,
+          "frames": 30,
+          "start_s": 0.01,
+          "end_s": 0.3,
+          "score": -0.18731082839270433
+        },
+        {
+          "group_index": 1,
+          "start_frame_in_valid": 30,
+          "frames": 30,
+          "start_s": 0.31,
+          "end_s": 0.6,
+          "score": -0.48027609176933767
+        },
+        {
+          "group_index": 2,
+          "start_frame_in_valid": 60,
+          "frames": 30,
+          "start_s": 0.61,
+          "end_s": 0.9,
+          "score": -0.30141455717384813
+        },
+        {
+          "group_index": 3,
+          "start_frame_in_valid": 90,
+          "frames": 30,
+          "start_s": 0.91,
+          "end_s": 1.2,
+          "score": 0.04117099046707153
+        },
+        {
+          "group_index": 4,
+          "start_frame_in_valid": 120,
+          "frames": 30,
+          "start_s": 1.21,
+          "end_s": 1.5,
+          "score": 0.23426908403635024
+        },
+        {
+          "group_index": 5,
+          "start_frame_in_valid": 150,
+          "frames": 30,
+          "start_s": 1.51,
+          "end_s": 1.8,
+          "score": -0.20912530484298866
+        },
+        {
+          "group_index": 6,
+          "start_frame_in_valid": 180,
+          "frames": 30,
+          "start_s": 1.81,
+          "end_s": 2.1,
+          "score": 0.31242950074374676
+        },
+        {
+          "group_index": 7,
+          "start_frame_in_valid": 210,
+          "frames": 30,
+          "start_s": 2.1100000000000003,
+          "end_s": 2.4000000000000004,
+          "score": 0.05714181698858738
+        },
+        {
+          "group_index": 8,
+          "start_frame_in_valid": 240,
+          "frames": 30,
+          "start_s": 2.41,
+          "end_s": 2.7,
+          "score": 0.006252437581618627
+        }
+      ]
+    },
+    {
+      "detector": "M6_E06_O_SS2_B",
+      "label_for_validation_only": 1,
+      "audio_path": "deployment/samples/golden_E06_O_SS_label1.wav",
+      "audio_sha256": "dcf2544002c922fc7b4178e60c25193b9a7888442ebc4fa276cfba33ee7a32c7",
+      "checkpoint_sha256": "43bae36b1c47db0b4060171c818e33e350a56de17a521f2d4039328072221a61",
+      "frames": 30,
+      "source_run": "outputs/E_M6_extensions_v1/extensions-v1",
+      "source_id": "61-70968-0022_center3s_E06_O_SS_main_label1",
+      "source_detector": "combo_B",
+      "seed": 2026,
+      "groups": [
+        {
+          "group_index": 0,
+          "start_frame_in_valid": 0,
+          "frames": 30,
+          "start_s": 0.01,
+          "end_s": 0.3,
+          "score": 0.2571166017403205
+        },
+        {
+          "group_index": 1,
+          "start_frame_in_valid": 30,
+          "frames": 30,
+          "start_s": 0.31,
+          "end_s": 0.6,
+          "score": -0.17140409822265307
+        },
+        {
+          "group_index": 2,
+          "start_frame_in_valid": 60,
+          "frames": 30,
+          "start_s": 0.61,
+          "end_s": 0.9,
+          "score": 0.05528660006821155
+        },
+        {
+          "group_index": 3,
+          "start_frame_in_valid": 90,
+          "frames": 30,
+          "start_s": 0.91,
+          "end_s": 1.2,
+          "score": 0.24274670357505482
+        },
+        {
+          "group_index": 4,
+          "start_frame_in_valid": 120,
+          "frames": 30,
+          "start_s": 1.21,
+          "end_s": 1.5,
+          "score": 0.37010860480368135
+        },
+        {
+          "group_index": 5,
+          "start_frame_in_valid": 150,
+          "frames": 30,
+          "start_s": 1.51,
+          "end_s": 1.8,
+          "score": 0.31008845679461955
+        },
+        {
+          "group_index": 6,
+          "start_frame_in_valid": 180,
+          "frames": 30,
+          "start_s": 1.81,
+          "end_s": 2.1,
+          "score": 0.5194614632676046
+        },
+        {
+          "group_index": 7,
+          "start_frame_in_valid": 210,
+          "frames": 30,
+          "start_s": 2.1100000000000003,
+          "end_s": 2.4000000000000004,
+          "score": 0.3867391912887494
+        },
+        {
+          "group_index": 8,
+          "start_frame_in_valid": 240,
+          "frames": 30,
+          "start_s": 2.41,
+          "end_s": 2.7,
+          "score": 0.3180336692680915
+        }
+      ]
+    },
+    {
+      "detector": "M6_E06_O_LPC_A",
+      "label_for_validation_only": 0,
+      "audio_path": "deployment/samples/golden_E06_O_SS_LPC_label0.wav",
+      "audio_sha256": "07f134333463607a12ab566f2a1b1b195a821ac91f273fd6e7665e96a7166dd6",
+      "checkpoint_sha256": "5474a035cfa2fcfb483e3c9f39a6f6ba5828de45b00032775a97465cf0d1b2e0",
+      "frames": 30,
+      "source_run": "outputs/E_M6_extensions_v1/extensions-v1",
+      "source_id": "61-70968-0022_center3s_E06_O_SS_LPC_main_label0",
+      "source_detector": "combo_A",
+      "seed": 2026,
+      "groups": [
+        {
+          "group_index": 0,
+          "start_frame_in_valid": 0,
+          "frames": 30,
+          "start_s": 0.01,
+          "end_s": 0.3,
+          "score": -0.7676217978199323
+        },
+        {
+          "group_index": 1,
+          "start_frame_in_valid": 30,
+          "frames": 30,
+          "start_s": 0.31,
+          "end_s": 0.6,
+          "score": -1.0298043496906757
+        },
+        {
+          "group_index": 2,
+          "start_frame_in_valid": 60,
+          "frames": 30,
+          "start_s": 0.61,
+          "end_s": 0.9,
+          "score": -0.7236848739286263
+        },
+        {
+          "group_index": 3,
+          "start_frame_in_valid": 90,
+          "frames": 30,
+          "start_s": 0.91,
+          "end_s": 1.2,
+          "score": -0.12858706216017404
+        },
+        {
+          "group_index": 4,
+          "start_frame_in_valid": 120,
+          "frames": 30,
+          "start_s": 1.21,
+          "end_s": 1.5,
+          "score": 0.046572364121675494
+        },
+        {
+          "group_index": 5,
+          "start_frame_in_valid": 150,
+          "frames": 30,
+          "start_s": 1.51,
+          "end_s": 1.8,
+          "score": -0.574270601818959
+        },
+        {
+          "group_index": 6,
+          "start_frame_in_valid": 180,
+          "frames": 30,
+          "start_s": 1.81,
+          "end_s": 2.1,
+          "score": 0.4397759700814883
+        },
+        {
+          "group_index": 7,
+          "start_frame_in_valid": 210,
+          "frames": 30,
+          "start_s": 2.1100000000000003,
+          "end_s": 2.4000000000000004,
+          "score": 0.1678551693757375
+        },
+        {
+          "group_index": 8,
+          "start_frame_in_valid": 240,
+          "frames": 30,
+          "start_s": 2.41,
+          "end_s": 2.7,
+          "score": -0.2553437831501166
+        }
+      ]
+    },
+    {
+      "detector": "M6_E06_O_LPC_A",
+      "label_for_validation_only": 1,
+      "audio_path": "deployment/samples/golden_E06_O_SS_LPC_label1.wav",
+      "audio_sha256": "a4474a8d7fae1a8efd8b07e74023c13ffd72d71952fcd6feb23d9734d061095b",
+      "checkpoint_sha256": "5474a035cfa2fcfb483e3c9f39a6f6ba5828de45b00032775a97465cf0d1b2e0",
+      "frames": 30,
+      "source_run": "outputs/E_M6_extensions_v1/extensions-v1",
+      "source_id": "61-70968-0022_center3s_E06_O_SS_LPC_main_label1",
+      "source_detector": "combo_A",
+      "seed": 2026,
+      "groups": [
+        {
+          "group_index": 0,
+          "start_frame_in_valid": 0,
+          "frames": 30,
+          "start_s": 0.01,
+          "end_s": 0.3,
+          "score": 0.9517549447715282
+        },
+        {
+          "group_index": 1,
+          "start_frame_in_valid": 30,
+          "frames": 30,
+          "start_s": 0.31,
+          "end_s": 0.6,
+          "score": 0.14392722994089127
+        },
+        {
+          "group_index": 2,
+          "start_frame_in_valid": 60,
+          "frames": 30,
+          "start_s": 0.61,
+          "end_s": 0.9,
+          "score": 0.5131129565338294
+        },
+        {
+          "group_index": 3,
+          "start_frame_in_valid": 90,
+          "frames": 30,
+          "start_s": 0.91,
+          "end_s": 1.2,
+          "score": 1.1553172171115875
+        },
+        {
+          "group_index": 4,
+          "start_frame_in_valid": 120,
+          "frames": 30,
+          "start_s": 1.21,
+          "end_s": 1.5,
+          "score": 0.7986080115040143
+        },
+        {
+          "group_index": 5,
+          "start_frame_in_valid": 150,
+          "frames": 30,
+          "start_s": 1.51,
+          "end_s": 1.8,
+          "score": 1.7009768567979335
+        },
+        {
+          "group_index": 6,
+          "start_frame_in_valid": 180,
+          "frames": 30,
+          "start_s": 1.81,
+          "end_s": 2.1,
+          "score": 1.8179074071347714
+        },
+        {
+          "group_index": 7,
+          "start_frame_in_valid": 210,
+          "frames": 30,
+          "start_s": 2.1100000000000003,
+          "end_s": 2.4000000000000004,
+          "score": 1.206472718467315
+        },
+        {
+          "group_index": 8,
+          "start_frame_in_valid": 240,
+          "frames": 30,
+          "start_s": 2.41,
+          "end_s": 2.7,
+          "score": 1.045665943622589
+        }
+      ]
+    },
+    {
+      "detector": "M6_E06_O_LPC_B",
+      "label_for_validation_only": 0,
+      "audio_path": "deployment/samples/golden_E06_O_SS_LPC_label0.wav",
+      "audio_sha256": "07f134333463607a12ab566f2a1b1b195a821ac91f273fd6e7665e96a7166dd6",
+      "checkpoint_sha256": "f93f89c8a6684ecf915325c4ea24d9af84deeea958625cf3fda7163a76a2afec",
+      "frames": 30,
+      "source_run": "outputs/E_M6_extensions_v1/extensions-v1",
+      "source_id": "61-70968-0022_center3s_E06_O_SS_LPC_main_label0",
+      "source_detector": "combo_B",
+      "seed": 2026,
+      "groups": [
+        {
+          "group_index": 0,
+          "start_frame_in_valid": 0,
+          "frames": 30,
+          "start_s": 0.01,
+          "end_s": 0.3,
+          "score": -0.5262225830306609
+        },
+        {
+          "group_index": 1,
+          "start_frame_in_valid": 30,
+          "frames": 30,
+          "start_s": 0.31,
+          "end_s": 0.6,
+          "score": -1.0882102105766536
+        },
+        {
+          "group_index": 2,
+          "start_frame_in_valid": 60,
+          "frames": 30,
+          "start_s": 0.61,
+          "end_s": 0.9,
+          "score": -0.553057224676013
+        },
+        {
+          "group_index": 3,
+          "start_frame_in_valid": 90,
+          "frames": 30,
+          "start_s": 0.91,
+          "end_s": 1.2,
+          "score": -0.236341559390227
+        },
+        {
+          "group_index": 4,
+          "start_frame_in_valid": 120,
+          "frames": 30,
+          "start_s": 1.21,
+          "end_s": 1.5,
+          "score": -0.19018537911276023
+        },
+        {
+          "group_index": 5,
+          "start_frame_in_valid": 150,
+          "frames": 30,
+          "start_s": 1.51,
+          "end_s": 1.8,
+          "score": -0.5306817907840014
+        },
+        {
+          "group_index": 6,
+          "start_frame_in_valid": 180,
+          "frames": 30,
+          "start_s": 1.81,
+          "end_s": 2.1,
+          "score": 0.4150647393117348
+        },
+        {
+          "group_index": 7,
+          "start_frame_in_valid": 210,
+          "frames": 30,
+          "start_s": 2.1100000000000003,
+          "end_s": 2.4000000000000004,
+          "score": -0.11405418515205383
+        },
+        {
+          "group_index": 8,
+          "start_frame_in_valid": 240,
+          "frames": 30,
+          "start_s": 2.41,
+          "end_s": 2.7,
+          "score": -0.2640106651932001
+        }
+      ]
+    },
+    {
+      "detector": "M6_E06_O_LPC_B",
+      "label_for_validation_only": 1,
+      "audio_path": "deployment/samples/golden_E06_O_SS_LPC_label1.wav",
+      "audio_sha256": "a4474a8d7fae1a8efd8b07e74023c13ffd72d71952fcd6feb23d9734d061095b",
+      "checkpoint_sha256": "f93f89c8a6684ecf915325c4ea24d9af84deeea958625cf3fda7163a76a2afec",
+      "frames": 30,
+      "source_run": "outputs/E_M6_extensions_v1/extensions-v1",
+      "source_id": "61-70968-0022_center3s_E06_O_SS_LPC_main_label1",
+      "source_detector": "combo_B",
+      "seed": 2026,
+      "groups": [
+        {
+          "group_index": 0,
+          "start_frame_in_valid": 0,
+          "frames": 30,
+          "start_s": 0.01,
+          "end_s": 0.3,
+          "score": 0.973373199130098
+        },
+        {
+          "group_index": 1,
+          "start_frame_in_valid": 30,
+          "frames": 30,
+          "start_s": 0.31,
+          "end_s": 0.6,
+          "score": -0.06584241030116876
+        },
+        {
+          "group_index": 2,
+          "start_frame_in_valid": 60,
+          "frames": 30,
+          "start_s": 0.61,
+          "end_s": 0.9,
+          "score": 0.5822967695693175
+        },
+        {
+          "group_index": 3,
+          "start_frame_in_valid": 90,
+          "frames": 30,
+          "start_s": 0.91,
+          "end_s": 1.2,
+          "score": 1.0399486017723878
+        },
+        {
+          "group_index": 4,
+          "start_frame_in_valid": 120,
+          "frames": 30,
+          "start_s": 1.21,
+          "end_s": 1.5,
+          "score": 0.7952467775593202
+        },
+        {
+          "group_index": 5,
+          "start_frame_in_valid": 150,
+          "frames": 30,
+          "start_s": 1.51,
+          "end_s": 1.8,
+          "score": 1.8511888918777306
+        },
+        {
+          "group_index": 6,
+          "start_frame_in_valid": 180,
+          "frames": 30,
+          "start_s": 1.81,
+          "end_s": 2.1,
+          "score": 1.7118983518332243
+        },
+        {
+          "group_index": 7,
+          "start_frame_in_valid": 210,
+          "frames": 30,
+          "start_s": 2.1100000000000003,
+          "end_s": 2.4000000000000004,
+          "score": 1.0347608661899963
+        },
+        {
+          "group_index": 8,
+          "start_frame_in_valid": 240,
+          "frames": 30,
+          "start_s": 2.41,
+          "end_s": 2.7,
+          "score": 0.9503796081990004
+        }
+      ]
+    }
+  ],
+  "score_tolerance": 1e-05,
+  "group_definition_tolerance": 0.0,
+  "scope": "Fixed received WAVs and frozen epoch25 seed2026 checkpoints; cross-platform score check only, no universal decision threshold"
+}

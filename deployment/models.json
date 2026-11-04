@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "selection": "preset seed 2026, final epoch25 for all families; not chosen by test ranking",
+  "key": {
+    "path": "deployment/watermark.json",
+    "sha256": "f454aee1829ea0e7fb1457608b650c1be9d250505e3750ceb6014985a46ebae8"
+  },
+  "models": {
+    "M5_C1_A": {
+      "path": "deployment/weights/M5_C1_A.pt",
+      "sha256": "1bd83c908c6b4ae9dc021adb0b66ecc485d2e4c34b45583f63896839bb9bbd60",
+      "display_name": "主实验降采样 模型 A"
+    },
+    "M5_C1_B": {
+      "path": "deployment/weights/M5_C1_B.pt",
+      "sha256": "0fae1cd246fe919b06e7f63d4321a2f9bbd3862f03d9c1d25e11314cccf9ce4b",
+      "display_name": "主实验降采样 模型 B"
+    },
+    "M5_C3_A": {
+      "path": "deployment/weights/M5_C3_A.pt",
+      "sha256": "d5b47e5cc21db5382b60ad3290a28af4483cbf0d93e9a9ac0a2287ff504ffc22",
+      "display_name": "主实验 Opus8 模型 A"
+    },
+    "M5_C3_B": {
+      "path": "deployment/weights/M5_C3_B.pt",
+      "sha256": "37c050fad74a59e49f17959d0f54d6fe8fc50d705c99e91912122e52b953400d",
+      "display_name": "主实验 Opus8 模型 B"
+    },
+    "M6_MIXED_A": {
+      "path": "deployment/weights/M6_MIXED_A.pt",
+      "sha256": "8153a0f1cfc80a27e068a4a375bb3238e76e7d62f31a3201e228ea158ce83d7c",
+      "display_name": "混合码率 模型 A"
+    },
+    "M6_MIXED_B": {
+      "path": "deployment/weights/M6_MIXED_B.pt",
+      "sha256": "83dfe7efc1d3f348a124d1065d14a29baa55ccab05cf0220939a3f317ec3cac8",
+      "display_name": "混合码率 模型 B"
+    },
+    "M6_E06_D_SS2_A": {
+      "path": "deployment/weights/M6_E06_D_SS2_A.pt",
+      "sha256": "f2fc260a35a0db51cb227beb8d23856e455321d39a5c33583ab3f96e475351c1",
+      "display_name": "降采样 SS2 模型 A"
+    },
+    "M6_E06_D_SS2_B": {
+      "path": "deployment/weights/M6_E06_D_SS2_B.pt",
+      "sha256": "f34c249526717147706f9122bd38caa8d4583a9ecde230fc3ce13fd336083d0c",
+      "display_name": "降采样 SS2 模型 B"
+    },
+    "M6_E06_D_LPC_A": {
+      "path": "deployment/weights/M6_E06_D_LPC_A.pt",
+      "sha256": "03354e9feb2ff3ae01a607608ba0c3c555dabe60d503b048f530fe4a427969b2",
+      "display_name": "降采样 LPC6 模型 A"
+    },
+    "M6_E06_D_LPC_B": {
+      "path": "deployment/weights/M6_E06_D_LPC_B.pt",
+      "sha256": "d39da90b18befd1ba212b3da6ec43fe498dbda486a566977777bb5de625be09e",
+      "display_name": "降采样 LPC6 模型 B"
+    },
+    "M6_E06_O_SS2_A": {
+      "path": "deployment/weights/M6_E06_O_SS2_A.pt",
+      "sha256": "accba01c3ebd8da00f2189376e1c0563f59feb859fc036d7ef1f10da425484d9",
+      "display_name": "Opus8 SS2 模型 A"
+    },
+    "M6_E06_O_SS2_B": {
+      "path": "deployment/weights/M6_E06_O_SS2_B.pt",
+      "sha256": "43bae36b1c47db0b4060171c818e33e350a56de17a521f2d4039328072221a61",
+      "display_name": "Opus8 SS2 模型 B"
+    },
+    "M6_E06_O_LPC_A": {
+      "path": "deployment/weights/M6_E06_O_LPC_A.pt",
+      "sha256": "5474a035cfa2fcfb483e3c9f39a6f6ba5828de45b00032775a97465cf0d1b2e0",
+      "display_name": "Opus8 LPC6 模型 A"
+    },
+    "M6_E06_O_LPC_B": {
+      "path": "deployment/weights/M6_E06_O_LPC_B.pt",
+      "sha256": "f93f89c8a6684ecf915325c4ea24d9af84deeea958625cf3fda7163a76a2afec",
+      "display_name": "Opus8 LPC6 模型 B"
+    }
+  },
+  "scope": "Local demonstration, scores only on arbitrary uploads; cloud not yet verified"
+}

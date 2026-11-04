@@ -1,0 +1,23 @@
+{
+  "checked_at_utc": "2026-10-17T23:38:27.827066+00:00",
+  "metadata_only_no_wheels_downloaded": true,
+  "results": [
+    {
+      "url": "https://pypi.org/pypi/torch/2.14.1/json",
+      "linux_cp312_x86_64_matches": [
+        {
+          "filename": "torch-2.14.1-cp312-cp312-manylinux_2_28_x86_64.whl",
+          "sha256": "23011fe29a99b591eabb3a31a25080c62e2c2f0690a3c798744e5489dae50451",
+          "size_bytes": 554618695
+        }
+      ]
+    },
+    {
+      "url": "https://download.pytorch.org/whl/cpu/torch/",
+      "linux_cp312_x86_64_matches": [
+        "https://download-r2.pytorch.org/whl/cpu/torch-2.14.1+cpu-cp312-cp312-manylinux_2_28_x86_64.whl#sha256=5a6363570c753812540a05eb82380e329469cbe668643e88111414c12627711f"
+      ]
+    }
+  ],
+  "scope": "Official metadata confirms wheel availability only; no Linux installation or Docker build performed"
+}
